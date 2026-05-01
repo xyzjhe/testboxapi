@@ -2,7 +2,7 @@
 
 #
 up:
-aowu:26.0430
+aowu:26.0501
 newwex:26.0426
 xiaohuban:v15.7
 
