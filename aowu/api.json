@@ -1,6 +1,6 @@
 //     当前接口：http://mytv6688.xyz/aowu/config.webp
 {
-    "spider": "./bfdb--cvdvds.png;md5;17da169cd07a6584a0ab7d9464291ef1",
+    "spider": "./bfdb--cvdvds.png;md5;6254b62c1e7f89640b5840c9e9085a30",
     "logo": "./logo.gif",
     "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
     "sites": [
