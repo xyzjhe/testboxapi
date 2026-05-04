@@ -15,7 +15,7 @@
     },
     {
       "key": "Doubana",
-      "name": "🐮【更新日期:20260426】🐮",
+      "name": "🐮【更新日期:20260504】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "searchable": 0,
@@ -44,7 +44,7 @@
     },
     {
       "key": "二小",
-      "name": "💓‍二小┃4K💓‍",
+      "name": "💓‍指南┃4K💓‍",
       "type": 3,
       "api": "csp_NewErXiaoGuard",
       "searchable": 1,
@@ -973,10 +973,10 @@
   ],
   "lives": [
     {
-      "name": "Kimentanm",
-      "type": 0,
-      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "playerType": 2
+        "name": "Kimentanm",
+        "type": 0,
+        "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+        "playerType": 2
     },
     {
       "name": "综合直播",
