@@ -3,7 +3,7 @@
 #
 up:  
 
-aowu:26.0504 
+aowu:26.0504  
 newwex:26.0504  
 xiaohuban:v15.8  
 xiaosa:26.(v0504)[单线路]  
