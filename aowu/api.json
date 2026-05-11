@@ -1,14 +1,14 @@
 //     当前接口：http://mytv6688.xyz/aowu/config.webp
 {
-    "spider": "./bfdb--cvdvds.png;md5;206ce2c0e30d12b898cfc5b52ab41aa0",
+    "spider": "./bfdb--cvdvds.png;md5;3ec3f69c14945f2f30fb0b9f226c7739",
     "logo": "./logo.gif",
     "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
     "sites": [
         {
-            "name": "💬嗷嗚|彈幕",
-            "key": "GoConfig",
+            "name": "💬豆瓣推荐",
+            "key": "Douban",
             "type": 3,
-            "api": "csp_GoConfigAmns",
+            "api": "csp_DoubanAmns",
             "indexs": 1,
             "searchable": 0,
             "filterable": 0,
@@ -20,7 +20,7 @@
             "name": "⚙️配置|中心",
             "key": "MyConfig",
             "type": 3,
-            "api": "csp_MyConfigAmns",
+            "api": "csp_AAConfigAmns",
             "searchable": 0,
             "filterable": 0,
             "quickSearch": 0,
@@ -35,28 +35,6 @@
             "filterable": 0,
             "quickSearch": 0,
             "changeable": 0
-        },
-        {
-            "name": "☁️我的|挎鈳",
-            "key": "MyQuark",
-            "type": 3,
-            "api": "csp_MyQuarkAmns",
-            "searchable": 0,
-            "filterable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/quark.json"
-        },
-        {
-            "name": "☁️我的|佰渡",
-            "key": "MyBaidu",
-            "type": 3,
-            "api": "csp_MyBaiduAmns",
-            "searchable": 0,
-            "filterable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/baidu.json"
         },
         {
             "name": "🎉Bili|合集",
@@ -233,18 +211,22 @@
         },
         {
             "name": "🍊橘汁|秒播",
-            "key": "Juzhi",
+            "key": "Woshinidie",
             "type": 3,
-            "jar": "./Juzhi_spider.jar",
-            "api": "csp_Juzhi",
+            "jar": "./Juzhi_spider.jar;md5;27b8475e6cfcd63457beb28b7f99dcd7",
+            "api": "csp_Woshinidie",
             "searchable": 1,
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
                 "host": "",
-                "site": "https://vip.123pan.cn/1848463092/cct/az5.txt",
-                "version": "3.0.1.9"
+                "version": "3.0.2.1",
+                "abid": "8192",
+                "pkg": "com.lxf.snzlcgtzxyx",
+                "keys": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==,OC1A06E197EF10CF3F6058CA7A803B5E",
+                "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+                "pub": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB"
             }
         },
         {
@@ -541,28 +523,6 @@
             "genre": "shortdrama"
         },
         {
-            "name": "🐠锦鲤|短剧",
-            "key": "JLdj",
-            "type": 3,
-            "api": "csp_JLdjAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "genre": "shortdrama"
-        },
-        {
-            "name": "🍩甜圈|短剧",
-            "key": "TQdj",
-            "type": 3,
-            "api": "csp_TQdjAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "genre": "shortdrama"
-        },
-        {
             "name": "🐱喵喵|短剧",
             "key": "Qmdj",
             "type": 3,
@@ -596,9 +556,9 @@
         },
         {
             "name": "📹U视|墙外",
-            "key": "YouSP",
+            "key": "Ysp",
             "type": 3,
-            "api": "csp_YouSPAmns",
+            "api": "csp_YspAmns",
             "searchable": 1,
             "filterable": 1,
             "quickSearch": 1,
@@ -626,9 +586,9 @@
         },
         {
             "name": "🔍fish|盘搜",
-            "key": "FishPs",
+            "key": "PSfish",
             "type": 3,
-            "api": "csp_FishPsAmns",
+            "api": "csp_PSfishAmns",
             "searchable": 1,
             "filterable": 0,
             "quickSearch": 1,
@@ -636,9 +596,9 @@
         },
         {
             "name": "🔍RB|盘搜",
-            "key": "RbPs",
+            "key": "PSrb",
             "type": 3,
-            "api": "csp_RbPsAmns",
+            "api": "csp_PSrbAmns",
             "searchable": 1,
             "filterable": 0,
             "quickSearch": 1,
@@ -646,9 +606,9 @@
         },
         {
             "name": "🔍短剧|盘搜",
-            "key": "DuanjPs",
+            "key": "PSdju",
             "type": 3,
-            "api": "csp_DuanjPsAmns",
+            "api": "csp_PSdjuAmns",
             "searchable": 1,
             "filterable": 0,
             "quickSearch": 1,
