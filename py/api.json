@@ -333,29 +333,12 @@
             "ext": {
                 "host": "https://api.jciyuan.com",
                 "appkey": "5ac60e53fbe93a890f0851fef0009d38",
-                "version": "edb8bce41f0a0b97",
-                "versionName": "6.4.0",
-                "name": "落攻阁",
+                "version": "bfc18c00-c866-46cb-8d7b-121c39b942d4",
+                "versionName": "6.1.0",
+                "name": "落攻阁影视",
                 "package": "com.yuaiweiwu.aixue.lggys",
-                "buildNumber": "",
-                "buildSignature": "20de8b57a40eec983571b3a3e45405f1c0d8521cd19f735d228472c5a498ff04"
-            }
-        },
-        {
-            "key": "剧圈圈[99APP]",
-            "name": "剧圈圈[99APP]",
-            "type": 3,
-            "api": "./app/99APP2.py",
-            "ext": {
-                "host": "http://124.221.3.182:19987",
-                "MainPath": "/app/bn",
-                "appkey": "5f014816d20431cc2ef37993e8611ae9",
-                "version": "31c4ba4c12546258",
-                "versionName": "1.0.0",
-                "name": "剧圈圈",
-                "package": "uni.UNI36C87EE",
                 "buildNumber": "2001",
-                "buildSignature": "2E653153F0FEE925871B577F3BDC2C3A5926188361EFAA41AD655B734A0E60D7"
+                "buildSignature": "CBDA00CF3F8921712231DA40AE69E446487CF4238D9EA976C6B4A729DA7F0995"
             }
         },
         {
