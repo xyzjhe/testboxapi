@@ -1,6 +1,6 @@
 //     当前接口：http://mytv6688.xyz/aowu/config.webp
 {
-    "spider": "./bfdb--cvdvds.png;md5;3ec3f69c14945f2f30fb0b9f226c7739",
+    "spider": "./bfdb--cvdvds.png;md5;506d9a09cb178656c488cea260d41fd3",
     "logo": "./logo.gif",
     "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
     "sites": [
@@ -55,6 +55,20 @@
             }
         },
         {
+            "name": "📡Bili|Live",
+            "key": "Bilive",
+            "type": 3,
+            "api": "csp_BiliveAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
             "name": "🎸酷狗|音乐",
             "key": "KuGou",
             "type": 3,
@@ -86,13 +100,21 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "sites": "http://woggpan.888484.xyz,http://woggpan.xxooo.cf,http://wogg.xxooo.cf,http://wogg4k.333232.xyz,https://www.wogg.one",
+                "sites": [
+                    "http://www.wogg.lol",
+                    "https://wogg.xxooo.cf",
+                    "https://woggpan.888484.xyz",
+                    "https://wogg.333232.xyz",
+                    "http://woggpan.xxooo.cf",
+                    "https://www.wogg.one",
+                    "https://www.wogg.live"
+                ],
                 "filters": "./json/wogg.json"
             }
         },
         {
-            "name": "😀蜡笔|4K",
-            "key": "lbWobg",
+            "name": "😀木偶|4K",
+            "key": "moWobg",
             "type": 3,
             "api": "csp_WobgAmns",
             "searchable": 1,
@@ -100,8 +122,11 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "sites": "http://feimao888.fun,https://feimao666.fun",
-                "filters": "./json/wolb.json"
+                "sites": [
+                    "http://123.666291.xyz",
+                    "https://666.666291.xyz"
+                ],
+                "filters": "./json/womo.json"
             }
         },
         {
@@ -114,7 +139,13 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "sites": "http://erxiaofn.click,http://2xiaopan.fun,http://erxiaofn.site,https://www.erixaopan.fun,https://wexwp.cc,https://xhww.net",
+                "sites": [
+                    "https://www.2xiaopan.top",
+                    "https://2xiaopan.top",
+                    "https://www.erxiaozhan.top",
+                    "https://www.2xiaozhan.top",
+                    "https://wexwp.cc"
+                ],
                 "filters": "./json/woex.json"
             }
         },
@@ -128,7 +159,9 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "sites": "http://103.45.162.207:20720",
+                "sites": [
+                    "http://103.45.162.207:20720"
+                ],
                 "filters": "./json/wohb.json"
             }
         },
@@ -142,7 +175,16 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "sites": "http://www.miqk.cc,https://www.zhizhenpan.fun,https://www.mihdr.top,https://mihdr.top",
+                "sites": [
+                    "https://pan.mihdr.top",
+                    "https://zhizhen1.top",
+                    "https://mihdr.top",
+                    "https://www.mihdr.top",
+                    "https://www.miqk.cc",
+                    "https://zhizhenpan.com",
+                    "https://zhizhen8.click",
+                    "https://www.zhizhen8.click"
+                ],
                 "filters": "./json/wozz.json"
             }
         },
@@ -156,22 +198,12 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "sites": "https://tv.yydsys.top,https://tv.yydsys.cc,https://tv.214521.xyz",
+                "sites": [
+                    "https://tv.yydsys.top",
+                    "https://tv.yydsys.cc",
+                    "https://tv.214521.xyz"
+                ],
                 "filters": "./json/wodd.json"
-            }
-        },
-        {
-            "name": "🥸欧哥|4K",
-            "key": "ogWobg",
-            "type": 3,
-            "api": "csp_WobgAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "sites": "https://woog.nxog.eu.org",
-                "filters": "./json/woog.json"
             }
         },
         {
@@ -199,15 +231,15 @@
             "changeable": 1
         },
         {
-            "name": "🌱春天|秒播",
-            "key": "NewGr",
+            "name": "🌱夏天|秒播",
+            "key": "NewGrV2",
             "type": 3,
-            "api": "csp_NewGrAmns",
+            "api": "csp_NewGrV2Amns",
             "searchable": 1,
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "8c6d288565eb2ea7fcb9caa81e70fad5b9a3d290f7e7066e286ddee6884c810ce5bbe0a9ee3dca2a86a21892c506a73db6e9eadf0f102f57a713650b09b20c7ed86ac6d8055809567dcdf7992631b05b07840f7a3aebd4f2f23986e89834324945546dfd866eba25fe2b34032b831d187f3d1e1a0982dd144d2c9eb006927d6786e8000a6bdb05606ebfeaa766e30426f6e972c34572b0135764debe2e9bc50205ee689327796ad1a98359f5f747c7157e9f48f5972d3866c7cabf97ae8c43196eff79e4b88cab3a5d472ee39ff4acb22aedb9ae988535797e6546bc70796051b8396cccc737afaa5c8ccf391ad8fd94b2b12a92e605b945a5530d8add47d9c411d69f76843c30cf5b86c7586bb3249761d5df4ee367ba43a7e1bad64f62e27d4eccc7e008a02406ada1d25669514f10f583dfc01f08987a88005342a13f8002adf39acec7b6bc8bbb59adc7b70fb1e5c4baa8ceb73dd084a919db98cf7ce833504c93bea6fd2ed733b51a2c54903599f3799c76"
+            "ext": "efef288565eb2ea7fcb9caa81e70fad5b9a3d290f7e7066e286ddee6884c813c8802cb583323f2d3e4d2a9112a38a062473f4b440cf9c65a4fd79ac6d02f202ef54326bbcd77f97cd8bb80c8d84661386dfd9968cafc2cefcca8b249ebbed4e4f32b9397064a17e66b7fc6003ab8e40b0ed5f7a748e8bc1b1564a5bf5ee0640f0dac483c2ac19d12a5b930c3d77438d9f34b6dc5dfaed4453ff55a14d32cb22bce4275e4185807a024a73ac3efe7bea3f20b6c15215131a9c4b800fa5820f80db5f9522cd2d65578180e03fa3009a73dd090579c25c975e134173dc51d621898934a3ba5161819f0d2285ccad7bede9a8b8a0912db445796b34b135c41786a59dfe81034c4b4d67a082406da3d83e51baf8957c2c79cf5fb3a7d6cab1ec2fdd3698531651c6a704f9d90e9d1"
         },
         {
             "name": "🍊橘汁|秒播",
@@ -466,6 +498,16 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "comic_series"
+        },
+        {
+            "name": "🐺嗷嗚|动漫",
+            "key": "AowuDm",
+            "type": 3,
+            "api": "csp_AowuDmAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "name": "😈嗷嗚|短剧",

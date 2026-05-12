@@ -162,7 +162,7 @@
         "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
         "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
         "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-        "site": "http://154.222.27.33:20720/"
+        "site": "https://103.239.245.69:16969/"
       }
     },
     {
@@ -172,7 +172,7 @@
       "playerType": 2,
       "api": "csp_Mogg",
       "ext": {
-        "site": "http://103.45.162.207:12512/"
+        "site": "https://103.239.245.69:12521/"
       }
     },
     {
