@@ -289,22 +289,6 @@
             "timeout": 60
         },
         {
-            "key": "清影",
-            "name": "清影｜4K",
-            "type": 3,
-            "api": "csp_PanWebShareQY",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": [
-                    "http://www.revohd.com"
-                ]
-            },
-            "timeout": 60
-        },
-        {
             "key": "夸父",
             "name": "夸父｜4K",
             "type": 3,
