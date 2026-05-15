@@ -516,7 +516,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": {
-        "api": "https://api-v2.cenguigui.cn/api",
+        "api": "https://api.cenguigui.cn/api",
         "classes": "./json/duanjucen.json"
       },
       "类型": "短剧"
